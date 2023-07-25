@@ -1,0 +1,82 @@
+.body_banner {
+  height: 250px;
+}
+.body_banerImg {
+  max-width: 250px;
+  height: 250px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  justify-content: space-between;
+  color: white;
+}
+.banner_cantante {
+  font-size: 22px;
+  font-weight: 700;
+}
+.button_reproducir {
+  background-color: #e86060;
+  border-radius: 100px;
+  padding: 6px 22px;
+  border: none;
+  color: white;
+}
+.button_seguir {
+  background-color: transparent;
+  border: 1px solid #e86060;
+  border-radius: 100px;
+  padding: 6px 22px;
+  color: #e86060;
+}
+.parrafo {
+  color: white;
+}
+.banner_subtitle {
+  font-size: 14px;
+  font-weight: 400;
+}
+.banner_descipcion {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.body {
+  background-color: white;
+  flex: 0.8;
+  height: 100vh;
+}
+.body_banner {
+  background-color: #d98880;
+  width: 100%;
+  height: 270px;
+  margin-left: 12%;
+  display: flex;
+}
+.body_banerImg {
+  height: 270px;
+  width: 100%;
+}
+.body_banerAlbum {
+  width: 20%;
+}
+.album_description {
+  width: 80%;
+  height: 100%;
+}
+.album_descriptionTexto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+  padding: 0;
+}
+.parrafo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

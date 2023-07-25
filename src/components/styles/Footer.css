@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  bottom: 0;
+  background-color: #eb5757;
+  height: 100px;
+  position: fixed;
+  display: flex;
+}
+.footer_izquierda {
+  display: flex;
+  color: white;
+  align-items: center;
+  width: 300px;
+  flex: 0.3;
+}
+.footer_albumImagen {
+  height: 100px;
+}
+.footer_cancionInfo > h4 {
+  margin-bottom: 5px;
+}
+.footer_cancionInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.footer_centro {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex: 0.4;
+  justify-content: center;
+}
+.footer_icono {
+  font-size: 60px !important;
+}
+.footer_derecha {
+  flex: 0.3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+.footer_derecha * .MuiSlider-root {
+  color: white;
+}
